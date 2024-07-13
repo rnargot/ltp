@@ -1,0 +1,32 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 32pt;
+    background-color: #F0EAD6;
+    font-family: 'Overused Grotesk';
+    margin-left: 39vw;
+  }
+.static-text {
+    position: relative;
+  }
+  .dynamic-text {
+    position: absolute;
+    left: calc(106%); 
+    transform: translateX(0);
+    width: 50vw;
+  }
+  @media (max-width: 768px) {
+    .text-container {
+      justify-content: flex-start;
+      margin-left: 0vw;
+      font-size: 24pt;
+      margin-top: 10vh;
+      margin-bottom: 5vh;
+    }
+    .dynamic-text {
+      left: calc(110%); 
+      transform: translateX(0);
+    }
+  }
