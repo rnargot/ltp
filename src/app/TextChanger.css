@@ -17,16 +17,16 @@
     transform: translateX(0);
     width: 50vw;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1100px) {
     .text-container {
       justify-content: flex-start;
-      margin-left: 0vw;
-      font-size: 24pt;
+      margin-left: 5vw;
       margin-top: 10vh;
       margin-bottom: 5vh;
+      width: 100vw;
     }
     .dynamic-text {
-      left: calc(110%); 
+      left: calc(70%); 
       transform: translateX(0);
     }
   }
